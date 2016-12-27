@@ -19,6 +19,11 @@ I have many accounts in the web, here all them.
 - [Telegram][11] - I like text
 - [Email][12] - SPAM SPAM SPAM SPAM
 
+## Others things
+
+- [GPG Key]({{site.url}}/files/gpg-key)
+
+<!-- links -->
 
 [01]: https://twitter.com/k4t0mono
 [02]: https://github.com/k4t0mono
