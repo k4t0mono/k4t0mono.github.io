@@ -1,0 +1,17 @@
+title: KatoMono Enkeli
+description: A non-binary demon-snow-leopard
+
+url: "https://k4t0mono.github.io"
+baseurl: ""
+
+theme: jekyll-theme-hacker
+google_analytics: UA-89514731-1
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
