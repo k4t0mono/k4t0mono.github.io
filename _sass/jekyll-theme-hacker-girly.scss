@@ -1,8 +1,13 @@
 @import "rouge-base16-dark";
 
 body {
-  background: #151515 url("bkg.png") 0 0;
+  margin: 0;
+  padding: 0;
+  background: #2e2a31 url("../images/bkg.png") 0 0;
   color: #eaeaea;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 /* General & 'Reset' Stuff */
@@ -35,7 +40,7 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px dashed #e619c3;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -46,10 +51,10 @@ header h1 {
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #e619c3;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+               0 0 5px rgba(230, 25, 195, 0.1),
+               0 0 10px rgba(230, 25, 195, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
 }
@@ -85,11 +90,11 @@ section img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #e619c3;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+               0 0 5px rgba(230, 25, 195, 0.1),
+               0 0 10px rgba(230, 25, 195, 0.1);
 }
 
 #main_content h1 {
@@ -134,7 +139,7 @@ ul li:before {
   content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
-  color: #b5e853;
+  color: #e619c3;
   margin-left: -37px;
   margin-right: 21px;
   line-height: 16px;
@@ -151,7 +156,7 @@ pre {
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
   font-size: 16px;
-  color: #b5e853;
+  color: #e619c3;
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -167,7 +172,7 @@ table {
 
 th {
   text-align: left;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px dashed #e619c3;
   padding: 5px 10px;
 }
 
@@ -178,8 +183,8 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #b5e853;
-  color: #b5e853;
+  border-bottom: 1px dashed #e619c3;
+  color: #e619c3;
 }
 
 /* Buttons
@@ -224,8 +229,8 @@ hr {
 */
 
 a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  color: #17ad98;
+  text-shadow: 0 0 5px rgba(23, 173, 152, 0.5);
 }
 
 /* Clearfix */
@@ -242,3 +247,4 @@ a {
 .cf {
   zoom:1;
 }
+
