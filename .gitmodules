@@ -1,0 +1,3 @@
+[submodule "themes/after-dark"]
+	path = themes/after-dark
+	url = git@gitlab.com:k4t0mono/after-dark
