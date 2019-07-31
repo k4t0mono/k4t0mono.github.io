@@ -1,0 +1,143 @@
+/* index.css */
+
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Ubuntu+Mono');
+
+body {
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 1em;
+	color: #0cf;
+
+	background-color: #1f1b32;
+	background-image: url("wallhaven-527219.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	position: relative;
+	overflow-y: scroll;
+}
+
+p {
+	margin-bottom: 0rem;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	:link, :visited, :hover, :active {
+		text-decoration: none;
+	}
+}
+
+
+h1, h2, h3 {
+	color: #d7d;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+h4, h5, h6 {
+	color: #8b48cd;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+footer {
+	box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.85);
+
+	ul {
+		padding-left: 0em;
+
+		li {
+			display: inline;
+			margin-left: 0.5rem;
+		}
+	}
+}
+
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.ss {
+	padding-top: 4.5em;
+}
+
+.ms {
+	margin-bottom: 2.5em;
+}
+
+.hh {
+	height: 50%;
+}
+
+.ss2 {
+	padding-top: 2.5em;
+}
+
+.col {
+	padding-bottom: 1em;
+}
+
+.card {
+	padding: 1rem;
+
+	border: 3px solid #555;
+	border-radius: 0px;
+
+	background-color: rgba(41, 43, 46, 0.9);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.85);
+
+	transition: .75s;
+
+	// :focus, :hover {
+	// 	border: 3px solid #d7d;
+	// 	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.85);
+	// }
+}
+
+.progress {
+	border-radius: 0px;
+
+	background-color: #6c4c8c;
+}
+
+.progress-bar {
+	background-color: #9f7ebf;
+}
+
+.triangle-r {
+	width: 0em;
+	height: 0em;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+
+	border-left: 8px solid #9f7ebf;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+
+  height: auto;
+  line-height: 60px;
+
+	background-color: #292b2e;
+	color: #d7d;
+}
+
+.logo {
+	height: 75px;
+	width: auto;
+}
+
+#sobre_img {
+	margin-bottom: 1rem;
+}
+
+#curiosidades {
+	 padding-bottom: 4.5em;
+}
